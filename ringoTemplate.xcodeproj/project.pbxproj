@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7ACFF611B23B06A00187772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACFF601B23B06A00187772 /* AppDelegate.swift */; };
+		C7ACFF631B23B06A00187772 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C7ACFF621B23B06A00187772 /* GameScene.sks */; };
+		C7ACFF651B23B06A00187772 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACFF641B23B06A00187772 /* GameScene.swift */; };
+		C7ACFF671B23B06A00187772 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACFF661B23B06A00187772 /* GameViewController.swift */; };
+		C7ACFF6A1B23B06A00187772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7ACFF681B23B06A00187772 /* Main.storyboard */; };
+		C7ACFF6C1B23B06A00187772 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7ACFF6B1B23B06A00187772 /* Images.xcassets */; };
+		C7ACFF7B1B23B06A00187772 /* ringoTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACFF7A1B23B06A00187772 /* ringoTemplateTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7ACFF751B23B06A00187772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7ACFF531B23B06A00187772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7ACFF5A1B23B06A00187772;
+			remoteInfo = ringoTemplate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7ACFF5B1B23B06A00187772 /* ringoTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ringoTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7ACFF5F1B23B06A00187772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7ACFF601B23B06A00187772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7ACFF621B23B06A00187772 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C7ACFF641B23B06A00187772 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C7ACFF661B23B06A00187772 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C7ACFF691B23B06A00187772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7ACFF6B1B23B06A00187772 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7ACFF741B23B06A00187772 /* ringoTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringoTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7ACFF791B23B06A00187772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7ACFF7A1B23B06A00187772 /* ringoTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringoTemplateTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7ACFF581B23B06A00187772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7ACFF711B23B06A00187772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7ACFF521B23B06A00187772 = {
+			isa = PBXGroup;
+			children = (
+				C7ACFF5D1B23B06A00187772 /* ringoTemplate */,
+				C7ACFF771B23B06A00187772 /* ringoTemplateTests */,
+				C7ACFF5C1B23B06A00187772 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7ACFF5C1B23B06A00187772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7ACFF5B1B23B06A00187772 /* ringoTemplate.app */,
+				C7ACFF741B23B06A00187772 /* ringoTemplateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7ACFF5D1B23B06A00187772 /* ringoTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C7ACFF601B23B06A00187772 /* AppDelegate.swift */,
+				C7ACFF621B23B06A00187772 /* GameScene.sks */,
+				C7ACFF641B23B06A00187772 /* GameScene.swift */,
+				C7ACFF661B23B06A00187772 /* GameViewController.swift */,
+				C7ACFF681B23B06A00187772 /* Main.storyboard */,
+				C7ACFF6B1B23B06A00187772 /* Images.xcassets */,
+				C7ACFF5E1B23B06A00187772 /* Supporting Files */,
+			);
+			path = ringoTemplate;
+			sourceTree = "<group>";
+		};
+		C7ACFF5E1B23B06A00187772 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7ACFF5F1B23B06A00187772 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7ACFF771B23B06A00187772 /* ringoTemplateTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7ACFF7A1B23B06A00187772 /* ringoTemplateTests.swift */,
+				C7ACFF781B23B06A00187772 /* Supporting Files */,
+			);
+			path = ringoTemplateTests;
+			sourceTree = "<group>";
+		};
+		C7ACFF781B23B06A00187772 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7ACFF791B23B06A00187772 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7ACFF5A1B23B06A00187772 /* ringoTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7ACFF7E1B23B06A00187772 /* Build configuration list for PBXNativeTarget "ringoTemplate" */;
+			buildPhases = (
+				C7ACFF571B23B06A00187772 /* Sources */,
+				C7ACFF581B23B06A00187772 /* Frameworks */,
+				C7ACFF591B23B06A00187772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ringoTemplate;
+			productName = ringoTemplate;
+			productReference = C7ACFF5B1B23B06A00187772 /* ringoTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7ACFF731B23B06A00187772 /* ringoTemplateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7ACFF811B23B06A00187772 /* Build configuration list for PBXNativeTarget "ringoTemplateTests" */;
+			buildPhases = (
+				C7ACFF701B23B06A00187772 /* Sources */,
+				C7ACFF711B23B06A00187772 /* Frameworks */,
+				C7ACFF721B23B06A00187772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7ACFF761B23B06A00187772 /* PBXTargetDependency */,
+			);
+			name = ringoTemplateTests;
+			productName = ringoTemplateTests;
+			productReference = C7ACFF741B23B06A00187772 /* ringoTemplateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7ACFF531B23B06A00187772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Ringo;
+				TargetAttributes = {
+					C7ACFF5A1B23B06A00187772 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C7ACFF731B23B06A00187772 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C7ACFF5A1B23B06A00187772;
+					};
+				};
+			};
+			buildConfigurationList = C7ACFF561B23B06A00187772 /* Build configuration list for PBXProject "ringoTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7ACFF521B23B06A00187772;
+			productRefGroup = C7ACFF5C1B23B06A00187772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7ACFF5A1B23B06A00187772 /* ringoTemplate */,
+				C7ACFF731B23B06A00187772 /* ringoTemplateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7ACFF591B23B06A00187772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7ACFF6C1B23B06A00187772 /* Images.xcassets in Resources */,
+				C7ACFF631B23B06A00187772 /* GameScene.sks in Resources */,
+				C7ACFF6A1B23B06A00187772 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7ACFF721B23B06A00187772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7ACFF571B23B06A00187772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7ACFF651B23B06A00187772 /* GameScene.swift in Sources */,
+				C7ACFF671B23B06A00187772 /* GameViewController.swift in Sources */,
+				C7ACFF611B23B06A00187772 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7ACFF701B23B06A00187772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7ACFF7B1B23B06A00187772 /* ringoTemplateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7ACFF761B23B06A00187772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7ACFF5A1B23B06A00187772 /* ringoTemplate */;
+			targetProxy = C7ACFF751B23B06A00187772 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7ACFF681B23B06A00187772 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7ACFF691B23B06A00187772 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7ACFF7C1B23B06A00187772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7ACFF7D1B23B06A00187772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7ACFF7F1B23B06A00187772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ringoTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7ACFF801B23B06A00187772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ringoTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7ACFF821B23B06A00187772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ringoTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringoTemplate.app/ringoTemplate";
+			};
+			name = Debug;
+		};
+		C7ACFF831B23B06A00187772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ringoTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringoTemplate.app/ringoTemplate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7ACFF561B23B06A00187772 /* Build configuration list for PBXProject "ringoTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7ACFF7C1B23B06A00187772 /* Debug */,
+				C7ACFF7D1B23B06A00187772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7ACFF7E1B23B06A00187772 /* Build configuration list for PBXNativeTarget "ringoTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7ACFF7F1B23B06A00187772 /* Debug */,
+				C7ACFF801B23B06A00187772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7ACFF811B23B06A00187772 /* Build configuration list for PBXNativeTarget "ringoTemplateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7ACFF821B23B06A00187772 /* Debug */,
+				C7ACFF831B23B06A00187772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7ACFF531B23B06A00187772 /* Project object */;
+}
