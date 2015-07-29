@@ -2,11 +2,10 @@
 //  GameScene.swift
 //  ringoTemplate
 //
-//  Created by Gautam Mittal on 6/6/15.
-//  Copyright (c) 2015 Ringo. All rights reserved.
 //
 
 import SpriteKit
+import UIKit
 
 class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
@@ -17,6 +16,8 @@ class GameScene: SKScene {
         myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
         
         self.addChild(myLabel)
+        
+      
     }
     
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
@@ -32,6 +33,8 @@ class GameScene: SKScene {
             sprite.position = location
             
             let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
+            
+//            SKAction.moveTo(location, duration: <#NSTimeInterval#>)
             
             sprite.runAction(SKAction.repeatActionForever(action))
             
