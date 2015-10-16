@@ -2,9 +2,7 @@
 //  GameScene.swift
 //  ringoTemplate
 //
-//  Created by Gautam Mittal on 10/16/15.
-//  Copyright (c) 2015 Ringo. All rights reserved.
-//
+
 
 import SpriteKit
 
