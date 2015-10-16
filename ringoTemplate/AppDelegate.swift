@@ -2,6 +2,8 @@
 //  AppDelegate.swift
 //  ringoTemplate
 //
+//  Created by Gautam Mittal on 10/16/15.
+//  Copyright © 2015 Ringo. All rights reserved.
 //
 
 import UIKit

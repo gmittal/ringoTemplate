@@ -2,10 +2,11 @@
 //  GameScene.swift
 //  ringoTemplate
 //
+//  Created by Gautam Mittal on 10/16/15.
+//  Copyright (c) 2015 Ringo. All rights reserved.
 //
 
 import SpriteKit
-import UIKit
 
 class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
@@ -16,14 +17,12 @@ class GameScene: SKScene {
         myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
         
         self.addChild(myLabel)
-        
-      
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
-        /* Called when a touch begins */
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+       /* Called when a touch begins */
         
-        for touch in (touches as! Set<UITouch>) {
+        for touch in touches {
             let location = touch.locationInNode(self)
             
             let sprite = SKSpriteNode(imageNamed:"Spaceship")
@@ -33,8 +32,6 @@ class GameScene: SKScene {
             sprite.position = location
             
             let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
-            
-//            SKAction.moveTo(location, duration: <#NSTimeInterval#>)
             
             sprite.runAction(SKAction.repeatActionForever(action))
             
